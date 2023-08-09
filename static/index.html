@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Game</title>
+  <script src="scripts/index.js" defer></script>
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+  <main class="site">
+    <div class="site-left">
+      <h1>Chess Game</h1>
+
+      <canvas class="chessboard" width="800" height="800"></canvas>
+    </div>
+    <div class="site-right">
+      <h2>GAME INFO</h2>
+      <div class="stats">
+        <h3 class="active-team-display"></h3>
+        <h3 class="legal-move-display"></h3>
+        <h3 class="halfmove-display"></h3>
+        <h3 class="fullmove-display"></h3>
+        <h3 class="white-advantage-display"></h3>
+        <h3 class="black-advantage-display"></h3>
+        <h3 class="white-score-display"></h3>
+        <h3 class="black-score-display"></h3>
+      </div>
+      <div class="controls">
+          <button onclick="restartgame()">Restart Game</button>
+      </div>
+
+
+    </div>
+
+  </main>
+
+
+
+</body>
+
+</html>

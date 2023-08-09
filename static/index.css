@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.site{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.site-left{
+    flex: 2 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-left > h1{
+    /* font-weight: 400; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+.site-right{
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.stats{
+
+}
+
+.controls{
+
+}
+.controls button{
+    padding: 10px 20px;
+    background-color: rgb(26, 23, 196);
+    color: ivory;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: none;
+    transition: opacity 0.1s linear;
+    box-shadow: 0 0 16px 0 black;
+}
+
+.controls button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+
+    transition: opacity 0.1s linear;
+}
+
+.chessboard{
+    background-color: purple;
+}
